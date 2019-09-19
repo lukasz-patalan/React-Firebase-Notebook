@@ -1,0 +1,47 @@
+input {
+  border: none;
+  border-bottom: 1.5px solid rgb(172, 172, 219);
+  width: 300px;
+  font-size: 20px;
+  outline: none;
+}
+
+.content {
+  font-size: 16px;
+  width: 400px;
+}
+.create-container {
+  display: inline-block;
+}
+.projects-display {
+  display: inline-block;
+}
+.create-project {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.create-project > p {
+  color: rgb(172, 172, 219);
+  font-size: 22px;
+  font-style: italic;
+}
+.create-project > h2 {
+  color: rgb(116, 116, 150);
+}
+button {
+  border: none;
+  background: rgb(172, 172, 219);
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.create-button {
+  margin-bottom: 30px;
+}
+.create-button:active {
+  background: rgb(116, 116, 150);
+}

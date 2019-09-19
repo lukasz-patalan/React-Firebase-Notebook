@@ -18,11 +18,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+h5 > a {
+  color: #747496;
+  text-decoration: none;
+}
 .App-link {
   color: #61dafb;
 }
-
+.router > div {
+  overflow: unset;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

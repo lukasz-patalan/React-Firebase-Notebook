@@ -1,0 +1,5 @@
+.conteinarwithscroll-projects {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 300px;
+}

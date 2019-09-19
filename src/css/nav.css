@@ -1,0 +1,25 @@
+.nav {
+  background: rgb(194, 194, 241);
+  display: flex;
+  height: 80px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 20px;
+}
+p > a {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(116, 116, 150);
+}
+.nav > p {
+  color: white;
+  cursor: pointer;
+}
+.nav > p:active {
+  color: rgb(116, 116, 150);
+}
